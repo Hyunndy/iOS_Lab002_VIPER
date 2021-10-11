@@ -56,15 +56,79 @@
 		025082AA271449C700EBD25D /* iOS_Lab002_VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				025082C127144B8400EBD25D /* Supporting */,
+				025082C027144B7D00EBD25D /* Resources */,
+				025082BF27144B7300EBD25D /* Classes */,
+				025082B1271449C700EBD25D /* Main.storyboard */,
+			);
+			path = iOS_Lab002_VIPER;
+			sourceTree = "<group>";
+		};
+		025082BF27144B7300EBD25D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				025082C627144BDE00EBD25D /* Manager */,
+				025082C527144BD800EBD25D /* Service */,
+				025082C427144BD000EBD25D /* Common */,
+				025082C327144BB100EBD25D /* App */,
+				025082C227144B8B00EBD25D /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		025082C027144B7D00EBD25D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				025082B4271449C900EBD25D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		025082C127144B8400EBD25D /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				025082B9271449C900EBD25D /* Info.plist */,
+				025082B6271449C900EBD25D /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		025082C227144B8B00EBD25D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		025082C327144BB100EBD25D /* App */ = {
+			isa = PBXGroup;
+			children = (
 				025082AB271449C700EBD25D /* AppDelegate.swift */,
 				025082AD271449C700EBD25D /* SceneDelegate.swift */,
 				025082AF271449C700EBD25D /* ViewController.swift */,
-				025082B1271449C700EBD25D /* Main.storyboard */,
-				025082B4271449C900EBD25D /* Assets.xcassets */,
-				025082B6271449C900EBD25D /* LaunchScreen.storyboard */,
-				025082B9271449C900EBD25D /* Info.plist */,
 			);
-			path = iOS_Lab002_VIPER;
+			path = App;
+			sourceTree = "<group>";
+		};
+		025082C427144BD000EBD25D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		025082C527144BD800EBD25D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		025082C627144BDE00EBD25D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
